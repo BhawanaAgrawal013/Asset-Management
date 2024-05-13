@@ -1,0 +1,88 @@
+﻿@{
+    ViewData["Title"] = "Staff Page";
+}
+
+<style>
+    .navbar {
+        background-color: skyblue;
+    }
+
+    .dropdown {
+      position: relative;
+      display: inline-block;
+      padding: 10px;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown-content a:hover {background-color: #f1f1f1}
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+</style>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Asset Management System</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Hdhuwehdome</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privsajdnkacy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+</body>
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <div>
+        <div class="dropdown">
+            <button class="dropbtn">Book</button>
+            <div class="dropdown-content">
+                <a class="text-dark" asp-area="" asp-controller="BookUI" asp-action="Index">Display</a>
+                <a class="text-dark" asp-area="" asp-controller="BookUI" asp-action="Add">Add</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Software</button>
+            <div class="dropdown-content">
+                <a class="text-dark" asp-area="" asp-controller="SoftwareUI" asp-action="Display">Display</a>
+                <a class="text-dark" asp-area="" asp-controller="SoftwareUI" asp-action="Add">Add</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Hardware</button>
+            <div class="dropdown-content">
+                <a class="text-dark" asp-area="" asp-controller="HardwareUI" asp-action="Display">Display</a>
+                <a class="text-dark" asp-area="" asp-controller="HardwareUI" asp-action="Add">Add</a>
+            </div>
+        </div>
+    </div>
+</div>

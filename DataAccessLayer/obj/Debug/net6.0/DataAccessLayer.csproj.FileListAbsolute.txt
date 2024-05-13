@@ -1,0 +1,85 @@
+C:\Users\bhawana.agrawal\source\repos\Week 6\AssetManagementWA\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.deps.json
+C:\Users\bhawana.agrawal\source\repos\Week 6\AssetManagementWA\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.dll
+C:\Users\bhawana.agrawal\source\repos\Week 6\AssetManagementWA\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.pdb
+C:\Users\bhawana.agrawal\source\repos\Week 6\AssetManagementWA\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\bhawana.agrawal\source\repos\Week 6\AssetManagementWA\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bhawana.agrawal\source\repos\Week 6\AssetManagementWA\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\bhawana.agrawal\source\repos\Week 6\AssetManagementWA\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.AssemblyInfo.cs
+C:\Users\bhawana.agrawal\source\repos\Week 6\AssetManagementWA\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\bhawana.agrawal\source\repos\Week 6\AssetManagementWA\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.dll
+C:\Users\bhawana.agrawal\source\repos\Week 6\AssetManagementWA\DataAccessLayer\obj\Debug\net6.0\refint\DataAccessLayer.dll
+C:\Users\bhawana.agrawal\source\repos\Week 6\AssetManagementWA\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.pdb
+C:\Users\bhawana.agrawal\source\repos\Week 6\AssetManagementWA\DataAccessLayer\obj\Debug\net6.0\ref\DataAccessLayer.dll
+C:\Users\bhawana.agrawal\source\repos\Week 6\AssetManagementWA\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.runtimeconfig.json
+C:\Users\bhawana.agrawal\source\repos\Week 6\AssetManagementWA\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.genruntimeconfig.cache
+C:\Users\bhawana.agrawal\Desktop\Dot_Net_Training2023\Week 6\week-6\AssetManagementWA\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.deps.json
+C:\Users\bhawana.agrawal\Desktop\Dot_Net_Training2023\Week 6\week-6\AssetManagementWA\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.runtimeconfig.json
+C:\Users\bhawana.agrawal\Desktop\Dot_Net_Training2023\Week 6\week-6\AssetManagementWA\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.dll
+C:\Users\bhawana.agrawal\Desktop\Dot_Net_Training2023\Week 6\week-6\AssetManagementWA\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.pdb
+C:\Users\bhawana.agrawal\Desktop\Dot_Net_Training2023\Week 6\week-6\AssetManagementWA\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\bhawana.agrawal\Desktop\Dot_Net_Training2023\Week 6\week-6\AssetManagementWA\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bhawana.agrawal\Desktop\Dot_Net_Training2023\Week 6\week-6\AssetManagementWA\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\bhawana.agrawal\Desktop\Dot_Net_Training2023\Week 6\week-6\AssetManagementWA\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.AssemblyInfo.cs
+C:\Users\bhawana.agrawal\Desktop\Dot_Net_Training2023\Week 6\week-6\AssetManagementWA\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\bhawana.agrawal\Desktop\Dot_Net_Training2023\Week 6\week-6\AssetManagementWA\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.dll
+C:\Users\bhawana.agrawal\Desktop\Dot_Net_Training2023\Week 6\week-6\AssetManagementWA\DataAccessLayer\obj\Debug\net6.0\refint\DataAccessLayer.dll
+C:\Users\bhawana.agrawal\Desktop\Dot_Net_Training2023\Week 6\week-6\AssetManagementWA\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.pdb
+C:\Users\bhawana.agrawal\Desktop\Dot_Net_Training2023\Week 6\week-6\AssetManagementWA\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.genruntimeconfig.cache
+C:\Users\bhawana.agrawal\Desktop\Dot_Net_Training2023\Week 6\week-6\AssetManagementWA\DataAccessLayer\obj\Debug\net6.0\ref\DataAccessLayer.dll
+C:\Users\bhawana.agrawal\Desktop\Dot_Net_Training2023\Week7\AssetManagementWA\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.deps.json
+C:\Users\bhawana.agrawal\Desktop\Dot_Net_Training2023\Week7\AssetManagementWA\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.runtimeconfig.json
+C:\Users\bhawana.agrawal\Desktop\Dot_Net_Training2023\Week7\AssetManagementWA\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.dll
+C:\Users\bhawana.agrawal\Desktop\Dot_Net_Training2023\Week7\AssetManagementWA\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.pdb
+C:\Users\bhawana.agrawal\Desktop\Dot_Net_Training2023\Week7\AssetManagementWA\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\bhawana.agrawal\Desktop\Dot_Net_Training2023\Week7\AssetManagementWA\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bhawana.agrawal\Desktop\Dot_Net_Training2023\Week7\AssetManagementWA\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\bhawana.agrawal\Desktop\Dot_Net_Training2023\Week7\AssetManagementWA\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.AssemblyInfo.cs
+C:\Users\bhawana.agrawal\Desktop\Dot_Net_Training2023\Week7\AssetManagementWA\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\bhawana.agrawal\Desktop\Dot_Net_Training2023\Week7\AssetManagementWA\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.dll
+C:\Users\bhawana.agrawal\Desktop\Dot_Net_Training2023\Week7\AssetManagementWA\DataAccessLayer\obj\Debug\net6.0\refint\DataAccessLayer.dll
+C:\Users\bhawana.agrawal\Desktop\Dot_Net_Training2023\Week7\AssetManagementWA\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.pdb
+C:\Users\bhawana.agrawal\Desktop\Dot_Net_Training2023\Week7\AssetManagementWA\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.genruntimeconfig.cache
+C:\Users\bhawana.agrawal\Desktop\Dot_Net_Training2023\Week7\AssetManagementWA\DataAccessLayer\obj\Debug\net6.0\ref\DataAccessLayer.dll
+C:\Users\bhawana.agrawal\Desktop\Dot_Net_Training2023\Week7\Week_7\AssetManagementWA\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.deps.json
+C:\Users\bhawana.agrawal\Desktop\Dot_Net_Training2023\Week7\Week_7\AssetManagementWA\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.runtimeconfig.json
+C:\Users\bhawana.agrawal\Desktop\Dot_Net_Training2023\Week7\Week_7\AssetManagementWA\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.dll
+C:\Users\bhawana.agrawal\Desktop\Dot_Net_Training2023\Week7\Week_7\AssetManagementWA\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.pdb
+C:\Users\bhawana.agrawal\Desktop\Dot_Net_Training2023\Week7\Week_7\AssetManagementWA\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\bhawana.agrawal\Desktop\Dot_Net_Training2023\Week7\Week_7\AssetManagementWA\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bhawana.agrawal\Desktop\Dot_Net_Training2023\Week7\Week_7\AssetManagementWA\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\bhawana.agrawal\Desktop\Dot_Net_Training2023\Week7\Week_7\AssetManagementWA\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.AssemblyInfo.cs
+C:\Users\bhawana.agrawal\Desktop\Dot_Net_Training2023\Week7\Week_7\AssetManagementWA\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\bhawana.agrawal\Desktop\Dot_Net_Training2023\Week7\Week_7\AssetManagementWA\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.dll
+C:\Users\bhawana.agrawal\Desktop\Dot_Net_Training2023\Week7\Week_7\AssetManagementWA\DataAccessLayer\obj\Debug\net6.0\refint\DataAccessLayer.dll
+C:\Users\bhawana.agrawal\Desktop\Dot_Net_Training2023\Week7\Week_7\AssetManagementWA\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.pdb
+C:\Users\bhawana.agrawal\Desktop\Dot_Net_Training2023\Week7\Week_7\AssetManagementWA\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.genruntimeconfig.cache
+C:\Users\bhawana.agrawal\Desktop\Dot_Net_Training2023\Week7\Week_7\AssetManagementWA\DataAccessLayer\obj\Debug\net6.0\ref\DataAccessLayer.dll
+C:\Users\bhawana.agrawal\Desktop\Dot_Net_Training2023\week-7\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.deps.json
+C:\Users\bhawana.agrawal\Desktop\Dot_Net_Training2023\week-7\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.runtimeconfig.json
+C:\Users\bhawana.agrawal\Desktop\Dot_Net_Training2023\week-7\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.dll
+C:\Users\bhawana.agrawal\Desktop\Dot_Net_Training2023\week-7\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.pdb
+C:\Users\bhawana.agrawal\Desktop\Dot_Net_Training2023\week-7\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\bhawana.agrawal\Desktop\Dot_Net_Training2023\week-7\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bhawana.agrawal\Desktop\Dot_Net_Training2023\week-7\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\bhawana.agrawal\Desktop\Dot_Net_Training2023\week-7\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.AssemblyInfo.cs
+C:\Users\bhawana.agrawal\Desktop\Dot_Net_Training2023\week-7\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\bhawana.agrawal\Desktop\Dot_Net_Training2023\week-7\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.dll
+C:\Users\bhawana.agrawal\Desktop\Dot_Net_Training2023\week-7\DataAccessLayer\obj\Debug\net6.0\refint\DataAccessLayer.dll
+C:\Users\bhawana.agrawal\Desktop\Dot_Net_Training2023\week-7\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.pdb
+C:\Users\bhawana.agrawal\Desktop\Dot_Net_Training2023\week-7\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.genruntimeconfig.cache
+C:\Users\bhawana.agrawal\Desktop\Dot_Net_Training2023\week-7\DataAccessLayer\obj\Debug\net6.0\ref\DataAccessLayer.dll
+F:\Dot_Net_Training2023\week-7\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.deps.json
+F:\Dot_Net_Training2023\week-7\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.runtimeconfig.json
+F:\Dot_Net_Training2023\week-7\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.dll
+F:\Dot_Net_Training2023\week-7\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.pdb
+F:\Dot_Net_Training2023\week-7\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.csproj.AssemblyReference.cache
+F:\Dot_Net_Training2023\week-7\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+F:\Dot_Net_Training2023\week-7\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.AssemblyInfoInputs.cache
+F:\Dot_Net_Training2023\week-7\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.AssemblyInfo.cs
+F:\Dot_Net_Training2023\week-7\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+F:\Dot_Net_Training2023\week-7\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.sourcelink.json
+F:\Dot_Net_Training2023\week-7\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.dll
+F:\Dot_Net_Training2023\week-7\DataAccessLayer\obj\Debug\net6.0\refint\DataAccessLayer.dll
+F:\Dot_Net_Training2023\week-7\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.pdb
+F:\Dot_Net_Training2023\week-7\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.genruntimeconfig.cache
+F:\Dot_Net_Training2023\week-7\DataAccessLayer\obj\Debug\net6.0\ref\DataAccessLayer.dll

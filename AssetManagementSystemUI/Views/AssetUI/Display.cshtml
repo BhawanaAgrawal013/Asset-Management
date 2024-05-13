@@ -1,0 +1,69 @@
+﻿@model IEnumerable<AssetManagementSystemUI.AssetViewModel>
+
+@{
+    ViewData["Title"] = "Display Assets";
+    Layout = "~/Views/Shared/_otherLayout.cshtml";
+}
+
+
+<strong style="color: green">@TempData["msg"]</strong>
+<div class="form">
+    @using (Html.BeginForm("Display", "AssetUI", FormMethod.Post))
+    {
+        @Html.DropDownList("All", new List<SelectListItem> { new SelectListItem { Text = "Book", Value = "1" }, new SelectListItem { Text = "Software", Value = "2" }, new SelectListItem { Text = "Hardware", Value = "3"} }, "All")
+        <input type="submit" value="Apply" />
+    }
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.AssetName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AssignedAsset)
+            </th>
+            <th>
+                Name
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Status)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateOfReturn)
+            </th>
+            
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+               @Html.DisplayFor(modelItem => item.AssetName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AssignedAsset)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.user.FirstName) @Html.DisplayFor(modelItem => item.user.LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Status)
+                    @{
+                        ViewBag.status = item.Status;
+                    }
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateOfReturn)
+            </td>
+            <td>
+                    @if(ViewBag.status == Status.Assigned.ToString())
+                    {
+                        @Html.ActionLink("Unassign","Unassign","Admin", new {  id=item.Id  })
+                    }
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

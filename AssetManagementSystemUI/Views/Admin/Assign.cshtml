@@ -1,0 +1,128 @@
+﻿@model AssetManagementSystemUI.AssetViewModel
+
+@{
+    ViewData["Title"] = "Assign Asset";
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    Layout = "~/Views/Shared/_otherLayout.cshtml";
+}
+    <script>
+        $(document).ready(function () {
+        });
+
+        $(document).ready(function () {
+            $('#assetType').change(function () {
+            var selectionval = (this.value);
+            var markup = "<option value='0'>--Select Asset Type--</option>";
+                console.log("change function selection");
+                $("#assetGenre").html('');
+                $("#assetName").html('');
+                $.ajax({
+                    type: "POST",
+                    dataType: "JSON",
+                    url: "/Asset/GetAssetType",
+                    data: { filter: selectionval },
+                    success:
+                        function (data) {
+                            console.log(data);
+                            for (var i = 0; i < data.length; i++) {
+                                markup += "<option value=" + selectionval + ">" + data[i] + "</option>";
+                                console.log("po" + data[i]);
+                            }
+                            $("#assetGenre").append(markup);
+                            $("#assetGenreDiv").show();
+                        },
+                    error: function (data) {
+                        alert("error" + data);
+                    }
+                })
+            });
+        });
+
+        $(document).ready(function () {
+            $('#assetGenre').change(function () {
+                var selectionval = (this.value);
+                var markup = "<option value='0'>--Select Asset Name--</option>";
+                var text = $(this).find("option:selected").text();
+                $("#assetName").html('');
+                $.ajax({
+                    type: "POST",
+                    dataType: "JSON",
+                    url: "/Asset/GetAssets",
+                    data: { filter: selectionval, genre: text },
+                    success:
+                        function (data) {
+                            console.log(data);                           
+                            for (var i = 0; i < data.length; i++) {
+                                markup += "<option value=" + data[i].id + ">" + data[i].name + "</option>";
+                            }
+                            $("#assetName").append(markup);
+                            $("#assetNameDiv").show();
+                        },
+                    error: function (data) {
+                        alert("error" + data);
+                    }
+                })
+            });
+        });
+
+    </script>
+
+    <h5>Assign</h5>
+    <hr />
+    <div class="row">
+    <div class="col-md-4">
+        <p style="color: red">@TempData["msg"]</p>
+            <form asp-action="Assign">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <div class="form-group">
+                    @Html.LabelFor(x => x.AssetName, htmlAttributes: new { @class = "control-label" })
+                    <select class="form-control" id="assetType" name="Filter" asp-for="AssetName">
+                        <option value="0">--Select Asset--</option>
+                        <option value="1">Books</option>
+                        <option value="2">Software</option>
+                        <option value="3">Hardware</option>
+                    </select>
+                </div>
+
+                <br />
+                <div class="form-group" id="assetGenreDiv">
+                    <label for="assetGenre">Asset Type</label>
+                    <div>
+                        <select class="form-control" id="assetGenre" name="assetGenre" title="assetGenre"></select>
+                    </div>
+                </div>
+
+                <br />
+                <div class="form-group" id="assetNameDiv">
+                <label for="assetName">Asset Name</label>
+                    <div>
+                        <select class="form-control" id="assetName" name="assetName" title="assetName"></select>
+                    </div>
+                </div>
+
+                <br />
+                <div class="form-group">
+                    @Html.LabelFor(x => x.UserEmail, htmlAttributes: new { @class = "control-label" })
+                    <div>
+                        <input asp-for="UserEmail" class="form-control" type="email"/>
+                        <span asp-validation-for="UserEmail" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <br />
+                <div class="form-group">
+                    @Html.LabelFor(x => x.DateOfReturn, htmlAttributes: new { @class = "control-label" })
+                    <div>
+                        <input asp-for="DateOfReturn" class="form-control" />
+                        <span asp-validation-for="DateOfReturn" class="text-danger"></span>
+                    </div>
+                </div>
+                <br />
+                <div class="form-group">
+                    <input type="submit" value="Save" class="btn btn-outline-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+

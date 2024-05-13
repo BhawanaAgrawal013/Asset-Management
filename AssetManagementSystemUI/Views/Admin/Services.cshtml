@@ -1,0 +1,76 @@
+﻿
+@{
+    ViewData["Title"] = "Admin Services";
+    Layout = "~/Views/Shared/_otherLayout.cshtml";
+}
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<script>
+		window.onload = function () {
+
+			var chart = new CanvasJS.Chart("bookchartContainer", {
+				theme: "light2", // "light1", "light2", "dark1", "dark2"
+				animationEnabled: true,
+				title: {
+					text: "Books Assigned"
+				},
+				data: [{
+					type: "pie",
+					startAngle: 180,
+					toolTipContent: "<b>{label}</b>: {y}%",
+					showInLegend: "true",
+					legendText: "{label}",
+					indexLabel: "{label} - {y}%",
+					dataPoints: @Html.Raw(ViewBag.BookPoints)
+					}]
+			});
+			chart.render();
+
+			var chart = new CanvasJS.Chart("softwarechartContainer", {
+				theme: "light2", // "light1", "light2", "dark1", "dark2"
+				animationEnabled: true,
+				title: {
+					text: "Softwares Assigned"
+				},
+				data: [{
+					type: "pie",
+					startAngle: 180,
+					toolTipContent: "<b>{label}</b>: {y}%",
+					showInLegend: "true",
+					legendText: "{label}",
+					indexLabel: "{label} - {y}%",
+					dataPoints: @Html.Raw(ViewBag.SoftwarePoints)
+							}]
+			});
+			chart.render();
+
+			var chart = new CanvasJS.Chart("hardwarechartContainer", {
+				theme: "light2", // "light1", "light2", "dark1", "dark2"
+				animationEnabled: true,
+				title: {
+					text: "Hardwares Assigned"
+				},
+				data: [{
+					type: "pie",
+					startAngle: 180,
+					toolTipContent: "<b>{label}</b>: {y}%",
+					showInLegend: "true",
+					legendText: "{label}",
+					indexLabel: "{label} - {y}%",
+					dataPoints: @Html.Raw(ViewBag.HardwarePoints)
+							}]
+			});
+			chart.render();
+
+		}
+	</script>
+</head>
+<body>
+	<div id="bookchartContainer" style="height: 370px; width: 100%;"></div> <br />
+	<div id="softwarechartContainer" style="height: 370px; width: 100%;"></div> <br />
+	<div id="hardwarechartContainer" style="height: 370px; width: 100%;"></div> <br />
+	<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</body>
+</html>

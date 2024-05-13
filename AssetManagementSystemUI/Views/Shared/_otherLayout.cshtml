@@ -1,0 +1,108 @@
+﻿
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@using Microsoft.AspNetCore.Http
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+
+<!DOCTYPE html>
+
+@{
+    ViewBag.Token = HttpContextAccessor.HttpContext.Session.GetString("_admintoken");
+    ViewBag.UserToken = HttpContextAccessor.HttpContext.Session.GetString("_token");
+    if(ViewBag.Token == null)
+    {
+            { await Html.RenderPartialAsync("UnAuthorized.cshtml"); }
+
+            <main role="main" class="pb-3">
+                @{
+                    IgnoreBody();
+                }
+            </main>
+        
+    }
+    else
+    {
+        
+ 
+
+<html>
+<head>
+    
+    <title>@ViewData["Title"]</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/StyleSheet.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/AssetManagementSystemUI.styles.css" asp-append-version="true" />
+</head>
+
+<body>
+    <header class="navigation">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-controller="AdminUI" asp-action="Services">Asset Management System</a>
+               
+                <div class="navigation navbar navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <div class="dropdown navigation">
+                                <button class="dropbtn">Book</button>
+                                <div class="dropdown-content">
+                                    <a class="text-dark" asp-area="" asp-controller="BookUI" asp-action="Add">Add</a>
+                                    <a class="text-dark" asp-area="" asp-controller="BookUI" asp-action="Index">Display</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="dropdown navbar-nav flex-grow-1">
+                                <button class="dropbtn">Software</button>
+                                <div class="dropdown-content">
+                                    <a class="text-dark" asp-area="" asp-controller="SoftwareUI" asp-action="Add">Add</a>
+                                    <a class="text-dark" asp-area="" asp-controller="SoftwareUI" asp-action="Display">Display</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="dropdown">
+                                <button class="dropbtn">Hardware</button>
+                                <div class="dropdown-content">
+                                    <a class="text-dark" asp-area="" asp-controller="HardwareUI" asp-action="Add">Add</a>
+                                    <a class="text-dark" asp-area="" asp-controller="HardwareUI" asp-action="Display">Display</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="dropdown">
+                                <button class="dropbtn">Assets</button>
+                                <div class="dropdown-content">
+                                    <a class="text-dark" asp-area="" asp-controller="Admin" asp-action="Assign">Assign</a>
+                                    <a class="text-dark" asp-area="" asp-controller="AssetUI" asp-action="Display">Display</a>
+                                    <a class="text-dark" asp-area="" asp-controller="AssetUI" asp-action="DisplayRequest">Requests</a>
+                                    <a class="text-dark" asp-area="" asp-controller="AssetUI" asp-action="History">History</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <a class="dropbtn" asp-area="" asp-controller="Admin" asp-action="AdminLogin">Log Out</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2023 - AssetManagementSystem
+        </div>
+    </footer>
+</body>
+</html>
+    }
+}

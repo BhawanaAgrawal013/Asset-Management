@@ -1,0 +1,52 @@
+2023-03-14 09:48:41.2648 INFO Books list fetched successfully
+2023-03-14 09:49:13.1132 INFO Books list fetched successfully
+2023-03-14 10:32:51.5793 INFO Books list fetched successfully
+2023-03-14 12:31:26.7494 INFO Books list fetched successfully
+2023-03-14 12:31:40.7695 INFO Books list fetched successfully
+2023-03-14 12:31:43.0103 INFO Book 1 information fetched successfully
+2023-03-14 12:32:10.2688 INFO Book 1 information fetched successfully
+2023-03-14 13:03:13.7072 INFO Books list fetched successfully
+2023-03-14 13:05:30.4512 INFO Books list fetched successfully
+2023-03-14 14:06:15.3730 INFO Asset list fetched successfully
+2023-03-14 14:06:16.3881 ERROR Asset list could not be found
+2023-03-14 14:07:14.2038 INFO Asset list fetched successfully
+2023-03-14 14:07:14.2038 ERROR Asset list could not be found
+2023-03-14 14:07:47.3128 INFO Asset list fetched successfully
+2023-03-14 14:09:57.2166 INFO Asset list fetched successfully
+2023-03-14 14:10:09.4224 INFO Asset list fetched successfully
+2023-03-14 14:10:10.2441 INFO Asset list fetched successfully
+2023-03-14 14:10:10.8807 INFO Asset list fetched successfully
+2023-03-14 14:10:18.6192 INFO Asset list fetched successfully
+2023-03-14 14:37:46.2595 INFO Asset list fetched successfully
+2023-03-14 14:47:25.7010 INFO Asset list fetched successfully
+2023-03-14 14:47:35.5899 ERROR Asset list could not be found
+2023-03-14 14:48:03.7046 INFO Asset list fetched successfully
+2023-03-14 14:49:40.5789 INFO Asset list fetched successfully
+2023-03-14 14:53:41.4061 INFO Asset list fetched successfully
+2023-03-14 14:54:32.7776 INFO Asset list fetched successfully
+2023-03-14 14:56:54.0620 INFO Asset list fetched successfully
+2023-03-14 14:57:29.7010 INFO Asset list fetched successfully
+2023-03-14 15:04:18.1184 INFO Asset list fetched successfully
+2023-03-14 15:06:37.5825 INFO Asset list fetched successfully
+2023-03-14 15:08:02.2864 INFO Asset list fetched successfully
+2023-03-14 15:08:36.2617 ERROR Asset list could not be found
+2023-03-14 15:08:39.6410 INFO Asset list fetched successfully
+2023-03-14 15:10:18.7225 INFO Asset list fetched successfully
+2023-03-14 15:15:57.0862 INFO Asset list fetched successfully
+2023-03-14 15:16:25.6716 INFO Asset list fetched successfully
+2023-03-14 15:24:06.7850 INFO Asset list fetched successfully
+2023-03-14 15:24:30.5742 INFO Asset list fetched successfully
+2023-03-14 15:49:18.5034 INFO Asset list fetched successfully
+2023-03-14 15:49:27.6513 INFO Books list fetched successfully
+2023-03-14 16:00:22.7542 INFO Books list fetched successfully
+2023-03-14 16:05:44.0859 INFO Books list fetched successfully
+2023-03-14 16:05:54.9903 INFO Books list fetched successfully
+2023-03-14 16:06:41.7577 INFO Books list fetched successfully
+2023-03-14 16:07:46.3484 INFO Books list fetched successfully
+2023-03-14 16:07:46.4221 INFO Books list fetched successfully
+2023-03-14 16:09:02.5634 INFO Books list fetched successfully
+2023-03-14 16:10:14.7879 INFO Books list fetched successfully
+2023-03-14 16:13:44.6634 INFO Books list fetched successfully
+2023-03-14 16:17:31.1033 INFO Books list fetched successfully
+2023-03-14 16:55:38.9054 INFO Books list fetched successfully
+2023-03-14 17:36:33.5488 INFO Books list fetched successfully

@@ -1,0 +1,6 @@
+2023-03-10 11:36:02.4672 INFO Book Removed sucessfully
+2023-03-10 14:06:26.8013 INFO Information is logged
+2023-03-10 14:07:57.2986 INFO Information is logged
+2023-03-10 14:07:58.8433 ERROR Information not added in the database
+2023-03-10 14:08:01.8830 INFO Information is logged
+2023-03-10 14:08:02.0269 ERROR Information not added in the database

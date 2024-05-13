@@ -1,0 +1,42 @@
+﻿@model AssetManagementSystemUI.UserViewModel
+
+@{
+    ViewData["Title"] = "User Login";
+    Layout = "~/Views/Shared/_loginLayout.cshtml";
+}
+
+<style>
+    
+</style>
+
+<h5>Login</h5>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <strong style="color: red">@TempData["errormsg"]</strong>
+        <strong style="color: green">@TempData["msg"]</strong>
+        <form asp-action="Login">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" type="email"/>
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Password" class="control-label"></label>
+                <input asp-for="Password" class="form-control" type="password"/>
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Login" class="btn btn-outline-primary" />
+            </div>
+
+            <br />
+            <div>
+                <a asp-action="Add" asp-controller="UserUI">Sign up</a> <br />
+                <a asp-action="AdminLogin" asp-controller="Admin">Login as Admin</a>
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,67 @@
+﻿@model IEnumerable<AssetManagementSystemUI.AssetViewModel>
+
+@{
+    ViewData["Title"] = "Display Asset Request";
+    Layout = "~/Views/Shared/_otherLayout.cshtml";
+}
+
+<h5>Asset Requests</h5>
+
+
+<strong style="color: red">@TempData["errormsg"]</strong>
+<strong style="color: green">@TempData["msg"]</strong>
+<div class="form">
+    @using (Html.BeginForm("DisplayRequest", "AssetUI", FormMethod.Post))
+    {
+        @Html.DropDownList("All", new List<SelectListItem> { new SelectListItem { Text = "Book", Value = "1" }, new SelectListItem { Text = "Software", Value = "2" }, new SelectListItem { Text = "Hardware", Value = "3"} }, "All")
+        <input type="submit" value="Apply" />
+    }
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.AssetName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Status)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateOfReturn)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AssignedAsset)
+            </th>
+            <th>
+                Name
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.AssetName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Status)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateOfReturn)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AssignedAsset)
+            </td>
+            <td>
+                    @Html.DisplayFor(modelItem => item.user.FirstName) @Html.DisplayFor(modelItem => item.user.LastName)
+            </td>
+            <td>
+                    @Html.ActionLink("Assign","AcceptRequest", "Admin", new {  id=item.Id  })
+                    @Html.ActionLink("Decline","DeclineRequest", "Admin", new {  id=item.Id  })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

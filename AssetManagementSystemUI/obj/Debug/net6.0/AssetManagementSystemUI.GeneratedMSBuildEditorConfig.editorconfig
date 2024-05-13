@@ -1,0 +1,143 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AssetManagementSystemUI
+build_property.RootNamespace = AssetManagementSystemUI
+build_property.ProjectDir = F:\Bhawana\Asset Management\AssetManagementSystemUI\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = F:\Bhawana\Asset Management\AssetManagementSystemUI
+build_property._RazorSourceGeneratorDebug = 
+
+[F:/Bhawana/Asset Management/AssetManagementSystemUI/Views/Admin/AdminLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Bhawana/Asset Management/AssetManagementSystemUI/Views/Admin/Assign.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQXNzaWduLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Bhawana/Asset Management/AssetManagementSystemUI/Views/Admin/DeclineRequest.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGVjbGluZVJlcXVlc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Bhawana/Asset Management/AssetManagementSystemUI/Views/Admin/Services.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2VydmljZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Bhawana/Asset Management/AssetManagementSystemUI/Views/AssetUI/Display.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZXRVSVxEaXNwbGF5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Bhawana/Asset Management/AssetManagementSystemUI/Views/AssetUI/DisplayRequest.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZXRVSVxEaXNwbGF5UmVxdWVzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Bhawana/Asset Management/AssetManagementSystemUI/Views/AssetUI/History.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZXRVSVxIaXN0b3J5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Bhawana/Asset Management/AssetManagementSystemUI/Views/BookUI/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1VJXEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Bhawana/Asset Management/AssetManagementSystemUI/Views/BookUI/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1VJXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Bhawana/Asset Management/AssetManagementSystemUI/Views/BookUI/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1VJXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Bhawana/Asset Management/AssetManagementSystemUI/Views/HardwareUI/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFyZHdhcmVVSVxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Bhawana/Asset Management/AssetManagementSystemUI/Views/HardwareUI/Display.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFyZHdhcmVVSVxEaXNwbGF5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Bhawana/Asset Management/AssetManagementSystemUI/Views/HardwareUI/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFyZHdhcmVVSVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Bhawana/Asset Management/AssetManagementSystemUI/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Bhawana/Asset Management/AssetManagementSystemUI/Views/Shared/UnAuthorized.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFVuQXV0aG9yaXplZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Bhawana/Asset Management/AssetManagementSystemUI/Views/Shared/_loginLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9sb2dpbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Bhawana/Asset Management/AssetManagementSystemUI/Views/Shared/_otherLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9vdGhlckxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Bhawana/Asset Management/AssetManagementSystemUI/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Bhawana/Asset Management/AssetManagementSystemUI/Views/SoftwareUI/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29mdHdhcmVVSVxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Bhawana/Asset Management/AssetManagementSystemUI/Views/SoftwareUI/Display.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29mdHdhcmVVSVxEaXNwbGF5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Bhawana/Asset Management/AssetManagementSystemUI/Views/SoftwareUI/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29mdHdhcmVVSVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Bhawana/Asset Management/AssetManagementSystemUI/Views/UserUI/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclVJXEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Bhawana/Asset Management/AssetManagementSystemUI/Views/UserUI/DisplayRequest.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclVJXERpc3BsYXlSZXF1ZXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Bhawana/Asset Management/AssetManagementSystemUI/Views/UserUI/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclVJXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Bhawana/Asset Management/AssetManagementSystemUI/Views/UserUI/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclVJXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Bhawana/Asset Management/AssetManagementSystemUI/Views/UserUI/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclVJXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Bhawana/Asset Management/AssetManagementSystemUI/Views/UserUI/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclVJXFByb2ZpbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Bhawana/Asset Management/AssetManagementSystemUI/Views/UserUI/RequestAsset.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclVJXFJlcXVlc3RBc3NldC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Bhawana/Asset Management/AssetManagementSystemUI/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Bhawana/Asset Management/AssetManagementSystemUI/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Bhawana/Asset Management/AssetManagementSystemUI/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-qqp5gt4dnp
